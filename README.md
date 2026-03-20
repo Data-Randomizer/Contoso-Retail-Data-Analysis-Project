@@ -176,12 +176,15 @@ They can be used for:
 
 ### ▶ SQL
 
-1. The Link of the dataset https://github.com/lukebarousse/Int_SQL_Data_Analytics_Course/releases/download/v.0.0.0/contoso_100k.sql
-2.Open PostgreSQL
+ 1. The Link of the dataset https://github.com/lukebarousse/Int_SQL_Data_Analytics_Course/releases/download/v.0.0.0/contoso_100k.sql
+
+ 2.**Open PostgreSQL**
+    
 ```
 CREATE DATABASE contoso;
 ``` 
-3.psql
+ 3.**psql**
+ 
 ```
 \c contoso
 ```
@@ -191,12 +194,15 @@ CREATE DATABASE contoso;
 ```
 
 5. Run queries from `1_SQL/`
-6. Export results as CSV
+
+7. Export results as CSV
 
 ### ▶ Python
 
 1. Open the notebook in `3_Jupyter_Notebook/`
+
 2. Run all cells
+
 3. View generated charts
 
 ---
