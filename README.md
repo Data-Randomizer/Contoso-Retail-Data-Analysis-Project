@@ -105,6 +105,7 @@ Datasets include:
 * Horizontal bar chart
 * Includes gradient colors and value labels
 * Highlights best-performing countries
+* Noticed That Online revenue is roughly equal to the total revenue from all on-site store locations combined
 
 ![image alt](https://github.com/Data-Randomizer/Contoso-Retail-Data-Analysis-Project/blob/1e1b08e6323d2f3c1581d2b2d216cb5e8d7eee8c/4_Charts/2-Top%2010%20Net%20Sales%20By%20Location%20For%202023.png)
 
@@ -123,6 +124,7 @@ Datasets include:
 
 * Multi-line chart comparing categories
 * Shows seasonality and trends
+* Some product categories consistently bring in most of the revenue
 
 ![image alt](https://github.com/Data-Randomizer/Contoso-Retail-Data-Analysis-Project/blob/1e1b08e6323d2f3c1581d2b2d216cb5e8d7eee8c/4_Charts/4-Monthly%20Net%20Sales%20Trend%20by%20Category%20For%202023.png)
 
@@ -174,9 +176,22 @@ They can be used for:
 
 ### ▶ SQL
 
-1. Open PostgreSQL
-2. Run queries from `1_SQL/`
-3. Export results as CSV
+1. The Link of the dataset https://github.com/lukebarousse/Int_SQL_Data_Analytics_Course/releases/download/v.0.0.0/contoso_100k.sql
+2.Open PostgreSQL
+```
+CREATE DATABASE contoso;
+``` 
+3.psql
+```
+\c contoso
+```
+
+```
+\i 'D:/Downloads/Retail_Dataset_Project/contoso_100k.sql'
+```
+
+5. Run queries from `1_SQL/`
+6. Export results as CSV
 
 ### ▶ Python
 
@@ -194,4 +209,4 @@ They can be used for:
 
 ## ⭐ Author
 
-**Data-Randomizer**
+**Sherif Mohamad**
